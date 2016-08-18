@@ -1,13 +1,12 @@
 		//set up markers 
 		var myMarkers = {"markers": [
-				{"latitude": "51.511732", "longitude":"-0.123270", "icon": "img/map-marker2.png"}
+				{"latitude": "-41.084544", "longitude":"-72.640895", "icon": "img/map-marker2.png", "baloon_text": 'This is <strong>Texas</strong>'}
 			]
 		};
 		
 		//set up map options
 		$("#map").mapmarker({
-			zoom	: 14,
-			center	: 'Covent Garden London',
+			zoom	: 10,
+			center	:  "-41.084544, -72.640895",
 			markers	: myMarkers
 		});
-	

@@ -1,0 +1,241 @@
+<?php
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+<!--<![endif]-->
+
+
+<!-- Mirrored from www.ansonika.com/countryholidays/contacts.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Aug 2016 20:40:55 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="farm activities, itineraries, farm holidays, country holidays, bed and breakfast, hotel, country hotel" />
+    <meta name="description" content="Country Holidays - Premium site template for a country accommodation.">
+    <meta name="author" content="Ansonika">
+    <title>Country Holidays - Premium site template for a country accommodation.</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- Google web fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+    
+    <!-- BASE CSS -->
+    <link href="css/base.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!--[if lte IE 8]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p>
+<![endif]-->
+
+	<div id="preloader">
+        <div class="sk-spinner sk-spinner-wave">
+            <div class="sk-rect1"></div>
+            <div class="sk-rect2"></div>
+            <div class="sk-rect3"></div>
+            <div class="sk-rect4"></div>
+            <div class="sk-rect5"></div>
+        </div>
+    </div>
+    <!-- End Preload -->
+
+	<div class="layer"></div>
+    <!-- Mobile menu overlay mask -->
+
+      <!-- Header================================================== -->
+    <header>
+        <div id="top_line"></div><!-- End top line-->
+        <div id="top_header">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <div id="logo">
+                        <a href="index.html"><img src="img/logo.png" width="240" height="40" alt="CountryHolidays" data-retina="true"></a>
+                    </div>
+                </div>
+                <nav class="col-md-8 col-sm-8 col-xs-8">
+                    <a class="cmn-toggle-switch cmn-toggle-switch__rot  open_close" href="javascript:void(0);"><span>Menu</span></a>
+                    <div class="main-menu">
+                        <div id="header_menu">
+                            <img src="img/logo.png" width="240" height="40" alt="CountryHolidays" data-retina="true">
+                        </div>
+                        <a href="#" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
+                        <ul>
+                            <li class="submenu">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li class="submenu">
+                                <a href="cabana.html">Cabaña</a>
+                            </li>
+                            <li class="submenu">
+                                <a href="activities.html">Actividades/Turismo</a>
+                            </li>
+                            <li><a href="contacts.html">Contáctenos</a></li>
+                        </ul>
+                    </div><!-- End main-menu -->
+                 
+                </nav>
+            </div>
+            </div>
+        </div>
+    </header><!-- End Header -->
+    
+ <div id="map"> </div><!-- end map-->
+
+   <div id="position">
+   	<div id="map_decor"></div>
+    	<div class="container">
+                	<ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li>Page active</li>
+                    </ul>
+        </div>
+    </div><!-- End Position -->
+
+    <div class="container margin_60">
+    	<div class="row">
+        	<div class="col-md-8">
+            
+             <div class="contact-form">
+                                                                    <!--<h3 class="main-heading"><span>Let's keep in touch</span></h3>-->
+
+                    <div id="contact-status"></div>
+
+                    <form action="" id="contactform">
+                        <p class="form-group" id="contact-name">
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="name" class="form-control name-contact" id="inputSuccess" placeholder="Nombre..." />
+                        </p>
+                        <p class="form-group" id="contact-email"> 
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" class="form-control email-contact" id="inputSuccess" placeholder="Email..." />
+                        </p>
+
+                        <p class="form-group" id="contact-message">
+                            <label for="message">Cuéntame, cuál es tu idea?</label>
+                            <textarea name="message" cols="88" rows="10" class="form-control message-contact" id="inputError" placeholder="Mensaje..."></textarea>
+                        </p>
+                        <input type="reset" name="reset" value="BORRAR" class="reset">
+                        <!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">-->
+
+                        <section class="button-demo" style="display: inline-block;">
+                            <button class="ladda-button submit send_email" name="submit" data-color="green" data-style="expand-left">ENVIAR MENSAJE <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                        </section>
+
+                    </form>
+                </div>
+		             
+            </div><!-- End col-md-8 -->
+            
+            <div class="col-md-4">
+            	<div class="box_style_1">
+                	<h3>Contacts</h3>
+                    <h5>Address</h5>
+                    <p>Route de Sablet 1023, Marseille<br>France 01923</p>
+                    <h5>Telephone</h5>
+                    <p><a href="tel://004542344599">+45 423 445 99</a> / <a href="tel://004542344599">+45 423 445 99</a></p>
+                    <h5>Email</h5>
+                    <p><a href="http://www.ansonika.com/cdn-cgi/l/email-protection#c6afa8a0a986a5a9b3a8b2b4bfaea9aaafa2a7bfb5e8a5a9ab"><span class="__cf_email__" data-cfemail="0c65626a634c6f637962787e7564636065686d757f226f6361">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></p>
+                    <p>His civibus tacimates ex, an quo nominavi qualisque. In erant dissentiunt vel, dicit legimus docendi an nam. Te congue perfecto eos, aliquid corrumpit ea est, eam petentium repudiandae ad.</p>
+                </div>
+            </div><!-- End col-md-4 -->
+        </div><!-- End row -->
+    </div><!-- End Container -->
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-3">
+                    <h3>Contacts</h3>
+                    <ul id="contact_details_footer">
+                        <li>Route de Sablet 1023, Marseille<br>France 01923</li>
+                        <li><a href="tel://004542344599">+45 423 445 99</a> / <a href="tel://004542344599">+45 423 445 99</a></li>
+                        <li><a href="http://www.ansonika.com/cdn-cgi/l/email-protection#ee87808881ae8d819b809a9c97868182878a8f979dc08d8183"><span class="__cf_email__" data-cfemail="fe97909891be9d918b908a8c87969192979a9f878dd09d9193">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></li>
+                    </ul>  
+                </div>
+                <div class="col-md-2 col-sm-2">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Rooms</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Contact us</a></li>
+                         <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>                
+                <div class="col-md-3 col-sm-3">
+                    <h3>Change language</h3>
+                   <ul>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">French</a></li>
+                        <li><a href="#">Spanish</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-3"  id="newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Join our newsletter to keep be informed about offers and news.</p>
+					<div id="message-newsletter_2"></div>
+						<form method="post" action="http://www.ansonika.com/countryholidays/assets/newsletter.php" name="newsletter_2" id="newsletter_2">
+                        <div class="form-group">
+                            <input name="email_newsletter_2" id="email_newsletter_2"  type="email" value=""  placeholder="Your mail" class="form-control">
+                          </div>
+                            <input type="submit" value="Subscribe" class="btn_1 white" id="submit-newsletter_2">
+                    	</form>
+                </div>
+            </div><!-- End row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="social_footer">
+                        <ul>
+                            <li><a href="#"><i class="icon-facebook"></i></a></li>
+                            <li><a href="#"><i class="icon-twitter"></i></a></li>
+                            <li><a href="#"><i class="icon-google"></i></a></li>
+                            <li><a href="#"><i class="icon-instagram"></i></a></li>
+                            <li><a href="#"><i class="icon-pinterest"></i></a></li>
+                            <li><a href="#"><i class="icon-vimeo"></i></a></li>
+                            <li><a href="#"><i class="icon-youtube-play"></i></a></li>
+                        </ul>
+                        <p>© CountryHolidays 2015</p>
+                    </div>
+                </div>
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </footer><!-- End footer -->
+
+<div id="toTop"></div><!-- Back to top button -->
+
+<!-- Common scripts -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/common_scripts_min.js"></script>
+<script src="js/functions.js"></script>
+<script src="assets/validate.js"></script>
+
+<!-- Specifi scripts -->
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDSJ0e60k9_KvhYShddKS2lgv_0qbc-keU"></script>
+<script type="text/javascript" src="js/mapmarker.jquery.js"></script>
+<script type="text/javascript" src="js/mapmarker_func.jquery.js"></script>
+
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+
+
+<!-- Mirrored from www.ansonika.com/countryholidays/contacts.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Aug 2016 20:40:57 GMT -->
+</html>
+?>
