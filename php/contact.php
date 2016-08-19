@@ -1,6 +1,6 @@
 <?php
 
-$TO = 'basthian.matthews@gmail.com';
+$TO = 'basthianmatthews@gmail.com';
 
 //message the subject of the email
 $SUBJECT = 'Nuevo Mensaje en vacaciones-cascadas.esy.es';
