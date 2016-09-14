@@ -22,7 +22,8 @@ if (empty($name)) {
 }
 
 // test for email
-if (empty($email) || !preg_match_all($pattern, $email)) {
+$dummy = array();
+if (empty($email) || !preg_match_all($pattern, $email, $dummy)) {
     $error .= 'error-email,'; // No Email	
 }
 
