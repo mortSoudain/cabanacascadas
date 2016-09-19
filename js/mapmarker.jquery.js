@@ -28,6 +28,7 @@
 		var myOptions = {
 		  zoom: zoom,
 		  zoomControl: false,
+		  scrollwheel: false,
 		  panControl: false,
 		  mapTypeControl: false,
 		  streetViewControl: false,
