@@ -68,14 +68,14 @@
             	<div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-4">
                     <div id="logo">
-                        <a href="index.html"><img src="img/logo.png" width="240" height="40" alt="CountryHolidays" data-retina="true"></a>
+                        <a href="index.html"><img src="img/logo.png" width="240" height="40" alt="CabañaCascadas" data-retina="true"></a>
                     </div>
                 </div>
                 <nav class="col-md-8 col-sm-8 col-xs-8">
                     <a class="cmn-toggle-switch cmn-toggle-switch__rot  open_close" href="javascript:void(0);"><span>Menu</span></a>
                     <div class="main-menu">
                         <div id="header_menu">
-                            <img src="img/logo.png" width="240" height="40" alt="CountryHolidays" data-retina="true">
+                            <img src="img/logo.png" width="240" height="40" alt="CabañaCascadas" data-retina="true">
                         </div>
                         <a href="#" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
                         <ul>
@@ -86,9 +86,9 @@
                                 <a href="cabana.html">Cabaña</a>
                             </li>
                             <li class="submenu">
-                                <a href="activities.html">Actividades/Turismo</a>
+                                <a href="turismo_actividades.html">Turismo & Actividades</a>
                             </li>
-                            <li><a href="contacts.html"><i class="biticon-mail-2"></i></i>Contáctenos</a></li>
+                            <li class="animated infinite pulse"><a href="arriendaya.html">Arrienda Ya<i class="icon-alert" style="color:#E00000 "></i></a></li>
                         </ul>
                     </div><!-- End main-menu -->
                  
@@ -111,7 +111,7 @@
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption customin tp-resizeme rs-parallaxlevel-0 text-center" data-x="center" data-y="center" data-hoffset="0" data-voffset="15" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="2600" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.05" data-endelementdelay="0.1" style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">
                         <div style="color:#ffffff; font-size:16px; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); text-transform:uppercase">
-                            Vacaciona en el hermoso Lago Llanquihue</div>
+                            Arrienda ahora y vacaciona en el hermoso Lago Llanquihue</div>
                     </div>
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption customin tp-resizeme rs-parallaxlevel-0" data-x="center" data-y="center" data-hoffset="0" data-voffset="70" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="2900" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-linktoslide="next" style="z-index: 12;"><a href='cabana.html' class="button_intro">Ver Cabaña</a> <a href='activities.html' class=" button_intro outline">Actividades Cercanas</a>
@@ -196,11 +196,12 @@
                     </p>
                 </div>
             </div>
+
         </div><!-- End row -->
     </div><!-- End container -->
         
-    <div class="bg_gray add_bottom_60">
-        <div class="container">
+    <div class="bg_gray map_bg_gray">
+        <div class="fluid-ontainer">
         <div class="row">
             <div class="main_title wow fadeInDown" data-wow-delay="0.1s">
                 <span></span>
@@ -209,6 +210,19 @@
                     A pasos del Lago Llanquihue... en las faldas del Volcán Osorno
                 </p>
             </div>
+
+            <div id="map" class="wow fadeIn"> </div><!-- end map-->
+               <div id="position">
+            <div id="map_decor"></div>
+
+            </div><!-- End Position -->
+        </div>
+        </div>
+    </div>
+
+    <div class="bg_white add_bottom_60">
+       <div class="container">
+        <div class="row">
             <div class="col-md-8 col-sm-8">
             <div class="col-md-6 col-sm-6 wow slideInLeft" data-wow-delay="0.3s">
                 <div class="img_zoom">
@@ -253,15 +267,26 @@
                 </div>
                 <h3>Contactate con nosotros</h3>
                 <p>
-                    Llena el formulario y nos comunicaremos contigo. Reservas para Enero y Febrero disponibles.
+                    Llena el formulario y nos comunicaremos contigo. Reservas de arriendo para Enero y Febrero disponibles.
                 </p>
                 <p>
-                    <a href="contacts.html" class="btn_1">Reserva Ya!<i class=" icon-right-big"></i></a>
+                    <a href="contacts.html" class="btn_1">Arrienda Ya!<i class=" icon-right-big"></i></a>
                 </p>
             </div>
             </div>
             <div class="col-md-4">
                 <ul class="feat" id="about">
+
+
+                             <div class=" box_style_2">
+                                <i class="icon_set_1_icon-90 animated infinite bounce"></i>
+                                <h4>¿Desea Contactarnos? Llámenos</h4>
+                                <a href="tel://0056642264678" class="phone">+(56) 6422 64678</a>
+                                <small>o también puede enviarnos <a href="contacts.html">un correo</a></small>
+                            </div>
+
+
+
                     <li class="wow slideInRight">
                     <i class="icon_set_1_icon-86"></i>
                     <h4>Internet Wi-Fi</h4>
@@ -305,7 +330,7 @@
         </div><!-- End container -->
     </div>
 
-    <div class="container padd_bottom_20 wow fadeInUp">
+    <div class="bg_gray padd_bottom_20 wow fadeInUp">
         <div class="main_title">
             <span></span>
             <h2>Testimonios</h2>
@@ -383,6 +408,11 @@
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/common_scripts_min.js"></script>
 <script src="js/functions.js"></script>
+
+<!-- Specifi scripts -->
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDSJ0e60k9_KvhYShddKS2lgv_0qbc-keU"></script>
+<script type="text/javascript" src="js/mapmarker.jquery.js"></script>
+<script type="text/javascript" src="js/mapmarker_func.jquery.js"></script>
 
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>

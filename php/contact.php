@@ -1,9 +1,10 @@
 <?php
 
-$TO = 'basthianmatthews@gmail.com';
+$TO = 'resaga001@hotmail.com';
+$TO2 = 'basthianmatthews@gmail.com';
 
 //message the subject of the email
-$SUBJECT = 'Nuevo Mensaje en vacaciones-cascadas.esy.es';
+$SUBJECT = 'NUEVO MENSAJE DESDE WWW.ARRIENDOCABAÑACASCADAS.CL';
 $MSG_SEND_ERROR = 'Disculpe, no pudimos enviar el mensaje.';
 
 // Sender Info
@@ -40,6 +41,7 @@ if (!$error) {
 
     //send the email
     $send = mail($TO, $SUBJECT, $message, $headers);
+    $send = mail($TO2, $SUBJECT, $message, $headers);
 
     if ($send) {
         // If the message is send successfully return success
