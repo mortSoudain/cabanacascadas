@@ -30,6 +30,7 @@
 		  zoomControl: false,
 		  scrollwheel: false,
 		  panControl: false,
+		  draggable: true,
 		  mapTypeControl: false,
 		  streetViewControl: false,
 		  mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -50,6 +51,7 @@
 		});
 
 		//run the marker JSON loop here
+		bandera=true;
 		$.each(markers.markers, function(i, the_marker){
 			latitude=the_marker.latitude;
 			longitude=the_marker.longitude;
@@ -77,6 +79,15 @@
 
 					infowindow.open(map,marker);
 				});
+
+				//abrir el primer baloontext
+				if (bandera) {
+					infowindow = new google.maps.InfoWindow({
+						content: baloon_text
+					});
+					infowindow.open(map,marker);
+					bandera=false;
+				}
 			}
 		});
 	}
