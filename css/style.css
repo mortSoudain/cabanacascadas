@@ -974,7 +974,7 @@ ul.feat#about li i {
 	position: absolute;
 	top: -50px;
 	left: 0;
-	z-index: 9
+	z-index: 0
 }
 @media only screen and (-Webkit-min-device-pixel-ratio:1.5), only screen and (-moz-min-device-pixel-ratio:1.5), only screen and (-o-min-device-pixel-ratio:3/2), only screen and (min-device-pixel-ratio:1.5) {
 	#map_decor {
